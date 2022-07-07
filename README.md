@@ -8,3 +8,6 @@ ClearCanvas is an open source code (C#) base for enabling software innovation in
 **Second, copy the code from the "Modified Code" folder to the appropriate location to overwrite the original code.**
 
 
+**Third, make your own change like Data Saving Path, Data Saving Format, etc.**
+
+
