@@ -81,6 +81,16 @@ The current diagnostic progress is displayed in the menu bar.
 Once all cases have been diagnosed, the software can be closed directly. The data generated during the diagnosis process will be automatically saved in a .csv file.
 
 
+## Data
+
+We save all the collected data in a .csv file. Each row in the file is the state of a particular image at a point in time.
+
+<div align="center">
+    <img src="/res/data.png">
+</div>
+
+As shown above, each line from left to right is, respectively, the system timestamp, the position of the upper left corner of the image on the screen (img_pos_x, img_pos_y), the width and height of the image (img_size_w, img_size_h), the scaling of the image (img_scale_x, img_scale_y), the position of the current display panel on the screen (box_pos_x, box_pos_y), the size of the display panel (box_size_w, box_size_h), the display panel id (position index, e.g., four panel layouts numbered 0-3), and the image path in the current window (dcm_path).
+
 
 ## Build
 
