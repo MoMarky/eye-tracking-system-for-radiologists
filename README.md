@@ -16,6 +16,8 @@ We modified the source code of the ClearCanvas open source project to accomplish
 
 - Eye tracking module. We added the interface of tobii eye tracker, so that the eye tracker can run and collect the radiologists' eye movement data at the same time.
 
+- Data saving. The state of medical image at all times is saved as a csv file, which contains data such as the system timestamp, the current image position, image size, etc.
+
 
 ## Build
 **1. You should download the ClearCanvas source code and compile it.**
