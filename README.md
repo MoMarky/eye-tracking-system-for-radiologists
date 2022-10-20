@@ -20,6 +20,7 @@ We modified the source code of the ClearCanvas open source project to accomplish
 
 
 ## Software Introduction
+
 **1. Define the list of images to be displayed before using the software.**
 
 The contents include the root directory of the medical images the layout of the software display panel used to display the images. If there are four images (four views of a mammogram as an example), the layout is set to 2 rows and 2 columns. Of course, it is possible to display two images in 1 row and 2 columns, or just one image.
@@ -27,6 +28,8 @@ The contents include the root directory of the medical images the layout of the 
 <div align="center">
     <img src="/res/image_list.png">
 </div>
+
+
 
 **2. Open the software.** 
 Open the software and select **Our Menu Contorl** in the menu bar, click on **Set_Materials** inside, find the file in the pop-up dialogue window and load it. 
@@ -38,10 +41,13 @@ Open the software and select **Our Menu Contorl** in the menu bar, click on **Se
 Then the viewer will open the first set of images in the image list.
 
 <div align="center">
-    <img src="/res/interface.png">
+    <img width="600px" src="/res/interface.png">
 </div>
 
+
+
 **3. Diagnosising, writing reports, and switching images.** 
+
 At this point the radiologists is ready to start the diagnosis. The radiologists can adjust the size, position and contrast of the images at will, as well as view each dispaly panel in full screen.
 
 <table style="width:100%; table-layout:fixed;">
@@ -55,6 +61,7 @@ At this point the radiologists is ready to start the diagnosis. The radiologists
   </tr>
 </table>
 
+
 While diagnosing, the diagnostic report writing module pops up automatically so that the radiologists can write the report while reading it. After the diagnosing, click **Next Case** in the menu bar to switch to the next case.
 
 <div align="center">
@@ -63,20 +70,25 @@ While diagnosing, the diagnostic report writing module pops up automatically so 
 
 
 **3. Close Software.** 
+
 The current diagnostic progress is displayed in the menu bar. 
 
 <div align="center">
     <img src="/res/progress.png">
 </div>
 
+
 Once all cases have been diagnosed, the software can be closed directly. The data generated during the diagnosis process will be automatically saved in a .csv file.
 
 
+
 ## Build
+
 **1. You should download the ClearCanvas source code and compile it.**
 
 ClearCanvas source code can be found at [ClearCanvas Project](https://clearcanvas.github.io/).
 ClearCanvas is an open source code (C#) base for enabling software innovation in medical imaging. It contains a DICOM Viewer and a DICOM Server. In this project, we only use DICOM Viewer for image viewing. You have to open "ImageViewer.sln" with VisualStudio software and compile the project.
+
 
 **2, Copy the code from the "Modified Code" folder to the appropriate location to overwrite the original code.**
 
