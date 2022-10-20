@@ -5,6 +5,8 @@ We introduce a DICOM viewer that can record the status of medical images in real
     <img src="/res/ovreall.png">
 </div>
 
+# DICOM Viewer
+
 ## Contributions
 We modified the source code of the ClearCanvas open source project to accomplish the following functions.
 
@@ -104,6 +106,12 @@ ClearCanvas is an open source code (C#) base for enabling software innovation in
 
 
 **3, Make your own change like Data Saving Path, Data Saving Format, etc.**
+
+
+
+# Eye Tracking Module
+
+The eye tracking module is relatively independent and is implemented through software running an external program.
 
 
 Still modifying...
