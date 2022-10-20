@@ -46,13 +46,14 @@ At this point the radiologists is ready to start the diagnosis. The radiologists
 
 <table style="width:100%; table-layout:fixed;">
   <tr>
-    <td><img width="150px" src="/res/adjust.png"></td>
-    <td><img width="150px" src="/res/full_screen.png"></td>
+    <td><img width="300px" src="/res/adjust.png"></td>
+    <td><img width="300px" src="/res/full_screen.png"></td>
   </tr>
   <tr>
     <td><font size="1">Adjusting Images<font></td>
     <td><font size="1">Full Screen of One Dispaly Panel<font></td>
   </tr>
+</table>
 
 While diagnosing, the diagnostic report writing module pops up automatically so that the radiologists can write the report while reading it. After the diagnosing, click **Next Case** in the menu bar to switch to the next case.
 
