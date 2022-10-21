@@ -71,7 +71,7 @@ While diagnosing, the diagnostic report writing module pops up automatically so 
 </div>
 
 
-**3. Close Software.** 
+**4. Close Software.** 
 
 The current diagnostic progress is displayed in the menu bar. 
 
