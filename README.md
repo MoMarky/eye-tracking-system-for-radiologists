@@ -8,7 +8,7 @@ We introduce a DICOM viewer that can record the status of medical images in real
 # DICOM Viewer
 
 ## Contributions
-We modified the source code of the [ClearCanvas](https://clearcanvas.github.io/) open source project to accomplish the following functions.
+I modified the source code of the [ClearCanvas](https://clearcanvas.github.io/) open source project to accomplish the following functions.
 
 - Custom image list. After the software is pre-loaded with the list, the radiologists can switch to observe the images in the list at will on the software.
 
@@ -80,12 +80,12 @@ The current diagnostic progress is displayed in the menu bar.
 </div>
 
 
-Once all cases have been diagnosed, the software can be closed directly. The data generated during the diagnosis process will be automatically saved in a .csv file.
+Once all cases have been diagnosed, the software can be closed directly. The data generated during the diagnosis process will be automatically saved in a **.csv** file.
 
 
 ## Data
 
-We save all the collected data in a .csv file. Each row in the file is the state of a particular image at a point in time.
+All the collected data is saved in a **.csv** file. Each row in the file is the state of a particular image at a point in time.
 
 <div align="center">
     <img src="/res/data.png">
