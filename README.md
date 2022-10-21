@@ -8,7 +8,7 @@ We introduce a DICOM viewer that can record the status of medical images in real
 # DICOM Viewer
 
 ## Contributions
-I modified the source code of the [ClearCanvas](https://clearcanvas.github.io/) open source project to accomplish the following functions.
+We modified the source code of the [ClearCanvas](https://clearcanvas.github.io/) open source project to accomplish the following functions.
 
 - Custom image list. After the software is pre-loaded with the list, the radiologists can switch to observe the images in the list at will on the software.
 
