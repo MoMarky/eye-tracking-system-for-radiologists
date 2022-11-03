@@ -1,4 +1,4 @@
-# Eye Tracking System for Radiologists
+# DICOM Image Tracking and Eye Tracking System for Radiologists
 We introduce a DICOM viewer that can record the status of medical images in real time and some modules for eye tracking.
 
 <div align="center">
