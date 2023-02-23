@@ -5,6 +5,10 @@ We introduce a DICOM viewer that can record the status of medical images in real
     <img src="/res/ovreall.png">
 </div>
 
+# Update News
+(2023.02.23) We create a release version of a simplified version of our ImageViewer software.
+
+
 # DICOM Viewer
 
 ## Contributions
@@ -113,5 +117,8 @@ ClearCanvas is an open source code (C#) base for enabling software innovation in
 
 The eye tracking module is relatively independent and is implemented through software running an external program.
 
+TBD.
 
-Still modifying...
+
+
+
